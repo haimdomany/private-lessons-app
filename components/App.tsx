@@ -1,12 +1,12 @@
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
-import { Subject, TimeSlot, BookedSlot } from './types';
-import { INITIAL_AVAILABLE_SLOTS } from './constants';
-import SubjectSelector from './components/SubjectSelector';
-import ScheduleGrid from './components/ScheduleGrid';
-import BookingModal from './components/BookingModal';
-import DeleteModal from './components/DeleteModal';
-import Header from './components/Header';
-import AdminScheduleEditor from './components/AdminScheduleEditor';
+import { Subject, TimeSlot, BookedSlot } from '../types';
+import { INITIAL_AVAILABLE_SLOTS } from '../constants';
+import SubjectSelector from './SubjectSelector';
+import ScheduleGrid from './ScheduleGrid';
+import BookingModal from './BookingModal';
+import DeleteModal from './DeleteModal';
+import Header from './Header';
+import AdminScheduleEditor from './AdminScheduleEditor';
 
 type AvailableSlots = { [key: string]: string[] };
 
