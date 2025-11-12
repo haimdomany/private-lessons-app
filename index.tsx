@@ -13,33 +13,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-לחץ Commit new file.
-קובץ שלישי: metadata.json
-שם הקובץ: metadata.json
-תוכן להעתקה:
-code
-JSON
-{
-  "name": "מערכת לקביעת שיעורים פרטיים",
-  "description": "אפליקציה המאפשרת למשתמשים לקבוע שיעורים פרטיים במתמטיקה, פיזיקה ואנגלית בשעות קבועות מראש במהלך השבוע."
-}
-לחץ Commit new file.
-קובץ רביעי: types.ts
-שם הקובץ: types.ts
-תוכן להעתקה:
-code
-Ts
-export enum Subject {
-  Math = 'מתמטיקה',
-  Physics = 'פיזיקה',
-  English = 'אנגלית',
-}
-
-export interface TimeSlot {
-  day: string;
-  time: string;
-}
-
-export interface BookedSlot extends TimeSlot {
-  subject: Subject;
-}
